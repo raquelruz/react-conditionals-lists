@@ -1,0 +1,51 @@
+.editlist-container {
+	max-width: 400px;
+	margin: 2rem auto;
+	padding: 1rem;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	background-color: #fafafa;
+	font-family: Arial, sans-serif;
+}
+
+.editlist-container h2 {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.editlist-container ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.editlist-container li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.8rem;
+	padding: 0.5rem 0;
+	border-bottom: 1px solid #eee;
+}
+
+.editlist-container input {
+	flex: 1;
+	padding: 0.4rem;
+	margin-right: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+.editlist-container button {
+	padding: 0.4rem 0.8rem;
+	border: none;
+	border-radius: 6px;
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.editlist-container button:hover {
+	background-color: #0056b3;
+}
