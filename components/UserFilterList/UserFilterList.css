@@ -1,0 +1,37 @@
+.userfilter-container {
+	max-width: 400px;
+	margin: 2rem auto;
+	padding: 1.5rem;
+	border: 1px solid #ddd;
+	border-radius: 12px;
+	background-color: #fefefe;
+	font-family: sans-serif;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 1rem;
+	color: #333;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	font-size: 14px;
+	margin-bottom: 1rem;
+	border: 1px solid #aaa;
+	border-radius: 6px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	padding: 10px;
+	margin-bottom: 0.5rem;
+	background-color: #f1f1f1;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+}

@@ -7,6 +7,7 @@ import { ProductList } from '../components/ProductList/ProductList'
 import { RemoveItemList } from '../components/RemoveItemList/RemoveItemList'
 import { TaskList } from '../components/TaskList/TaskList'
 import { ToggleItemsList } from '../components/ToggleItemsLists/ToggleItemsLists'
+import { UserFilterList } from '../components/UserFilterList/UserFilterList'
 import './App.css'
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
     <EditList/>
 
     <OrderManager />
+
+    <UserFilterList />
     </>
   )
 }
