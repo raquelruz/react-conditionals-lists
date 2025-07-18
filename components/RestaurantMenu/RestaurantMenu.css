@@ -1,0 +1,50 @@
+.menu-container {
+	max-width: 400px;
+	margin: 2rem auto;
+	padding: 1.5rem;
+	font-family: Arial, sans-serif;
+	background-color: #fafafa;
+	border: 1px solid #ddd;
+	border-radius: 12px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 1rem;
+	color: #333;
+}
+
+select {
+	display: block;
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 1.2rem;
+	font-size: 16px;
+	border-radius: 6px;
+	border: 1px solid #aaa;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.dish-item {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	margin-bottom: 0.6rem;
+	border-radius: 8px;
+	background-color: #f4f4f4;
+	border: 1px solid #ccc;
+}
+
+.dish-name {
+	font-weight: 600;
+}
+
+.dish-price {
+	color: #555;
+}
