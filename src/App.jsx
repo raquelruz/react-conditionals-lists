@@ -1,6 +1,7 @@
 import { AddFruitForm } from '../components/AddFruitForm/AddFruitForm'
 import { NameList } from '../components/NameList/NameList'
 import { ProductList } from '../components/ProductList/ProductList'
+import { RemoveItemList } from '../components/RemoveItemList/RemoveItemList'
 import { TaskList } from '../components/TaskList/TaskList'
 import './App.css'
 
@@ -14,6 +15,8 @@ function App() {
     <TaskList />
 
     <AddFruitForm />
+
+    <RemoveItemList />
     </>
   )
 }
