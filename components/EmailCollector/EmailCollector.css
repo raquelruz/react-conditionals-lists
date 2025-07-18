@@ -1,0 +1,63 @@
+.emailcollector-container {
+	max-width: 400px;
+	margin: 2rem auto;
+	padding: 1.5rem;
+	background-color: #fafafa;
+	border-radius: 12px;
+	border: 1px solid #ddd;
+	font-family: Arial, sans-serif;
+}
+
+.emailcollector-container h2 {
+	text-align: center;
+	margin-bottom: 1rem;
+	color: #333;
+}
+
+form {
+	display: flex;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+input[type="email"] {
+	flex: 1;
+	padding: 8px;
+	font-size: 14px;
+	border: 1px solid #aaa;
+	border-radius: 6px;
+}
+
+button {
+	padding: 8px 16px;
+	background-color: #007bff;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	background-color: #f0f0f0;
+	padding: 8px 12px;
+	border-radius: 6px;
+	margin-bottom: 0.5rem;
+	border: 1px solid #ccc;
+}
+
+p {
+	text-align: center;
+	font-style: italic;
+	color: #777;
+}
