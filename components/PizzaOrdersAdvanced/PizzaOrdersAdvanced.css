@@ -1,0 +1,107 @@
+.pizza-container {
+	max-width: 480px;
+	margin: 2rem auto;
+	padding: 1.5rem;
+	font-family: Arial, sans-serif;
+	background-color: #fff8f0;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+	border: 1px solid #e4cda7;
+}
+
+.title {
+	text-align: center;
+	color: #d14124;
+	margin-bottom: 1.5rem;
+	font-weight: 700;
+}
+
+.subtitle {
+	color: #a8441f;
+	margin-bottom: 0.8rem;
+	border-bottom: 1px solid #e4cda7;
+	padding-bottom: 0.3rem;
+}
+
+.form {
+	display: flex;
+	gap: 0.7rem;
+	margin-bottom: 1.5rem;
+	flex-wrap: wrap;
+}
+
+.input {
+	flex: 1;
+	padding: 8px;
+	font-size: 14px;
+	border-radius: 6px;
+	border: 1px solid #d1a27f;
+}
+
+.main-button {
+	padding: 8px 16px;
+	background-color: #d14124;
+	border: none;
+	color: white;
+	font-weight: 600;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.main-button:hover {
+	background-color: #a7331a;
+}
+
+.item {
+	list-style: none;
+	padding: 10px;
+	border-radius: 8px;
+	margin-bottom: 0.6rem;
+	background-color: #f7ede7;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #e4cda7;
+}
+
+.item.completed {
+	color: #757575;
+	font-style: italic;
+	background-color: #f0f0f0;
+}
+
+.action-button {
+	background-color: #43a047;
+	border: none;
+	padding: 5px 12px;
+	border-radius: 6px;
+	color: white;
+	cursor: pointer;
+	font-weight: 600;
+	transition: background-color 0.2s ease;
+}
+
+.action-button:hover {
+	background-color: #2e7d32;
+}
+
+.message {
+	color: #a8441f;
+	font-style: italic;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.divider {
+	border: none;
+	border-top: 1px solid #e4cda7;
+	margin: 1.5rem 0;
+}
+
+.total {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #d14124;
+	text-align: center;
+}
