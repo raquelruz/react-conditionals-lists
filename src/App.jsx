@@ -1,6 +1,7 @@
 import { AddFruitForm } from '../components/AddFruitForm/AddFruitForm'
 import { DynamicShoppingList } from '../components/DynamicShoppingList/DynamicShoppingList'
 import { EditList } from '../components/EditList/EditList'
+import { MovieFavorites } from '../components/MovieFavorites/MovieFavorites'
 import { NameList } from '../components/NameList/NameList'
 import { OrderManager } from '../components/OrderManager/OrderManager'
 import { ProductList } from '../components/ProductList/ProductList'
@@ -35,6 +36,8 @@ function App() {
     <UserFilterList />
 
     <ScoreBoard />
+
+    <MovieFavorites />
     </>
   )
 }
