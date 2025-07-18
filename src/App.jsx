@@ -4,6 +4,7 @@ import { NameList } from '../components/NameList/NameList'
 import { ProductList } from '../components/ProductList/ProductList'
 import { RemoveItemList } from '../components/RemoveItemList/RemoveItemList'
 import { TaskList } from '../components/TaskList/TaskList'
+import { ToggleItemsList } from '../components/ToggleItemsLists/ToggleItemsLists'
 import './App.css'
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
     <RemoveItemList />
 
     <DynamicShoppingList />
+
+    <ToggleItemsList />
     </>
   )
 }
