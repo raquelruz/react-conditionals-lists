@@ -1,0 +1,65 @@
+.fruitform-container {
+	max-width: 400px;
+	margin: 2rem auto;
+	padding: 1.5rem;
+	background-color: #f9f9f9;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	font-family: "Segoe UI", sans-serif;
+}
+
+.fruitform-container form {
+	display: flex;
+	gap: 0.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.fruitform-container input {
+	flex: 1;
+	padding: 0.6rem;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 1rem;
+	outline: none;
+	transition: border-color 0.3s;
+}
+
+.fruitform-container input:focus {
+	border-color: #0077b6;
+}
+
+.fruitform-container button {
+	padding: 0.6rem 1rem;
+	background-color: #0077b6;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.fruitform-container button:hover {
+	background-color: #005f8f;
+}
+
+.fruitform-container ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.fruitform-container li {
+	background-color: #ffffff;
+	padding: 0.8rem 1rem;
+	margin-bottom: 0.5rem;
+	border-radius: 8px;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+	font-size: 1.1rem;
+	color: #333;
+	transition: transform 0.2s;
+}
+
+.fruitform-container li:hover {
+	transform: translateY(-2px);
+}
