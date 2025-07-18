@@ -1,5 +1,6 @@
 import { NameList } from '../components/NameList/NameList'
 import { ProductList } from '../components/ProductList/ProductList'
+import { TaskList } from '../components/TaskList/TaskList'
 import './App.css'
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
     <NameList />
 
     <ProductList />
+
+    <TaskList />
     </>
   )
 }
